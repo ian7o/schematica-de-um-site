@@ -1,8 +1,9 @@
 header{
     position: fixed;
     height: 200px;
-    width: 100%;
+    width: 99%;
     border: 3px solid rgb(21, 0, 255);
+    background-color: rgba(0, 0, 255, 0.17);
 }
 .container1{
     position: relative;
@@ -10,27 +11,35 @@ header{
     display: flex;
     width: 100%;
     height: 500px;
-    border: 3px solid saddlebrown;
+
   }
   .Aside1{
-    border: 3px solid black;
+    border: 3px solid brown;
+    background-color: rgba(165, 42, 42, 0.303);
     width: 33%;
 
   }
 
   .subConteiner{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     align-self: center;
-    border: 3px solid rgb(255, 0, 170);
     height: 500px;
 
 }
   main{
     border: 3px solid purple;
-    width: 50%;
+    background-color: rgba(128, 0, 128, 0.332);
+    width: calc(50% - 6px);
   }
 .aside2{
     border: 3px solid rgb(128, 0, 0);
-    width: 50%;
+    background-color: rgba(188, 22, 22, 0.501) ;
+    width: calc(50% - 6px);
+}
+footer{
+  border: 3px solid green;
+  background-color: rgba(0, 128, 0, 0.377);
+    width: 100%;
 }
