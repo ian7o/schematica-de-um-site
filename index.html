@@ -1,22 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <link rel="icon" type="image/png" href="/images/minderaLogo.png" />
-    <link rel="stylesheet" href="/Style.css" />
-    <img />
-    <title>copy</title>
-  </head>
-  <body>
-    <section>
-      <img class="logo" src="/images/minderaLogo.png" alt="minderaLogo" />
-      <p class="textInRight">mindera logo</p>
-    </section>
-    <main>
-      <section class="topSection">
-        <aside class="asside left">this is left asside</aside>
-        <p class="centerText">this is the body</p>
-        <aside class="asside right">this is right asside</aside>
-      </section>
-    </main>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox Layout</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .logo {
+      flex: 0 0 20%;
+      border: 2px solid red;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .header {
+      flex-basis: 80%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      border: 2px solid blue;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .aside {
+      flex-basis: 30%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      border: 2px solid black;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+    .main {
+      flex-basis: 40%;
+      flex-grow: 0;
+      flex-shrink: 0;
+      border: 2px solid orange;
+      text-align: center;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="logo">Logo</div>
+    <div class="header">Header</div>
+    <div class="aside">Aside</div>
+    <div class="main">Main</div>
+    <div class="aside">Aside</div>
+  </div>
+</body>
 </html>
