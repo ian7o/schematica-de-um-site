@@ -1,0 +1,51 @@
+img.logo{
+    width: 200px;
+    border-color: black;
+    border: 3px solid black;
+    border-radius: 10%;
+  }
+  p.textInRight{
+    display: inline-block;
+}
+
+section.topSection{
+    position: relative;
+    
+}
+p.centerText{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    left: 50%;
+    display: inline-block;
+    margin-top: 0px;
+    border: 3px solid brown;
+    width: 800px;
+}
+.buttom{
+    position: absolute;
+    top: 15px;
+}
+aside.left{
+    text-align: left;
+    display: inline-block;
+    border: 3px solid rgb(255, 0, 0);
+    width: 350px;
+}
+aside.right{
+    position: absolute;
+    right: 0px;
+    display: inline-block;
+    border: 3px solid blue;
+    width: 350px;
+}
+section.bottomSection{
+    width: 100%;
+    text-align: center;
+    border-color: black;
+    border: 3px solid black;
+    border-radius: 10%;
+}
+section.separeContent{
+    position: relative;
+}
